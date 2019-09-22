@@ -26,7 +26,7 @@ gk=div2.find_element_by_id("delete_draft")
 gk.click()
 
 div3=driver.find_element_by_id("confirm_lightbox")
-ok=gk=div3.find_element_by_id("ok")
+ok=div3.find_element_by_id("ok")
 ok.click()
 
 #-------------------clears----------------------
